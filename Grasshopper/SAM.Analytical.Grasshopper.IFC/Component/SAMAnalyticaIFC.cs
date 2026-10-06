@@ -1,4 +1,7 @@
-﻿using Grasshopper.Kernel;
+﻿// SPDX-License-Identifier: LGPL-3.0-or-later
+// Copyright (c) 2020-2026 Michal Dengusiak & Jakub Ziolkowski and contributors
+
+using Grasshopper.Kernel;
 using SAM.Analytical.Grasshopper.IFC.Properties;
 using SAM.Core.Grasshopper;
 using SAM.Core.Grasshopper.IFC;
@@ -22,7 +25,7 @@ namespace SAM.Analytical.Grasshopper.IFC
         /// <summary>
         /// Provides an Icon for the component.
         /// </summary>
-        protected override System.Drawing.Bitmap Icon => Resources.SAM_IFC;
+        protected override System.Drawing.Bitmap Icon => Resources.SAM_GH_ObjectExport;
 
         /// <summary>
         /// Initializes a new instance of the SAM_point3D class.

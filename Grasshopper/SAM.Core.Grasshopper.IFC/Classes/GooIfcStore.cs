@@ -1,4 +1,7 @@
-﻿using GH_IO.Serialization;
+﻿// SPDX-License-Identifier: LGPL-3.0-or-later
+// Copyright (c) 2020-2026 Michal Dengusiak & Jakub Ziolkowski and contributors
+
+using GH_IO.Serialization;
 using Grasshopper.Kernel;
 using Grasshopper.Kernel.Types;
 using SAM.Core.Grasshopper.IFC.Properties;
@@ -145,7 +148,7 @@ namespace SAM.Core.Grasshopper.IFC
     public class GooIfcStoreParam : GH_PersistentParam<GooIfcStore>
     {
         public override Guid ComponentGuid => new Guid("407388bf-2655-4c3d-990b-eb8a64b46c74");
-        protected override System.Drawing.Bitmap Icon => Resources.SAM_Small;
+        protected override System.Drawing.Bitmap Icon => Resources.SAM_GH_File;
 
         public override GH_Exposure Exposure => GH_Exposure.hidden;
 
